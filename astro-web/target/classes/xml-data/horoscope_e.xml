@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<horoscope>
+<god>
+	<name>****gúâ MùYgûd ^cü ****</name>
+	<img>../img/god/ganesha.png</img>
+</god>
+<shloka>
+	<line1>Aditya di graha sarve, Nakhyatrani cha rasayah |</line1>
+	<line2>Deerghamayu prakurbantu, jasyeyam janma patrika  ||</line2>
+</shloka>
+
+<!-- Astrologer's Info (footer) -->
+<astroger-info>
+	<title>ANURADHA ASTRO RESEARCH</title>
+	<astrologer>Sri Bansidhara Kar</astrologer>
+	<awards>Jyotish Darubrahma, Jyotish Vidya Bachaspati, Jyotish Ratna and Vastu Vikram</awards>
+	<address>B.D.Pur,Ganjam.</address>
+	<mobile>9937609505</mobile>
+</astroger-info>
+
+<!-- Reference Number -->
+<ref>
+	<serial-no>1215/114/8</serial-no>
+	<prepared-date>04-Apr-2016</prepared-date>
+</ref>
+
+<!-- Horoscope Details -->
+<details>
+	<item1>
+		<attribute>Name</attribute>
+		<value>Sasanka Kar</value>
+	</item1>
+	<item2>
+		<attribute>Hora</attribute>
+		<value>Chandra</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Father</attribute>
+		<value>Bansidhar Kar</value>
+	</item1>
+	<item2>
+		<attribute>Drokan</attribute>
+		<value>Kanya-Budha</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Mother</attribute>
+		<value>Sanjukta Kar</value>
+	</item1>
+	<item2>
+		<attribute>Nabansa</attribute>
+		<value>Makara-Shani</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Gotra</attribute>
+		<value>Naga</value>
+	</item1>
+	<item2>
+		<attribute>Dwadansasa</attribute>
+		<value>Tula-Sukra</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Garbha</attribute>
+		<value>1st</value>
+	</item1>
+	<item2>
+		<attribute>Trishansa</attribute>
+		<value>Sukra</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>DOB</attribute>
+		<value>20-06-1982</value>
+	</item1>
+	<item2>
+		<attribute>Barna</attribute>
+		<value>Bipra</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Birth Time</attribute>
+		<value>12:28PM</value>
+	</item1>
+	<item2>
+		<attribute>Gana</attribute>
+		<value>Deba</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Place</attribute>
+		<value>B.D.Pur</value>
+	</item1>
+	<item2>
+		<attribute>Nadi</attribute>
+		<value>Madhya</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Masha/Tithi/Bara</attribute>
+		<value>Pausha/Kru(4th)/Tues Night</value>
+	</item1>
+	<item2>
+		<attribute>Swara</attribute>
+		<value>Chagala</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Swambachara</attribute>
+		<value>Brusha</value>
+	</item1>
+	<item2>
+		<attribute>Barga</attribute>
+		<value>Sa-Mesha</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Sakabda/Sankramana Dina</attribute>
+		<value>1909/Bicha-23 Dina</value>
+	</item1>
+	<item2>
+		<attribute>Shannadi</attribute>
+		<value>7,16,22,24,24</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Sambat</attribute>
+		<value>2045</value>
+	</item1>
+	<item2>
+		<attribute>Ghatachandra</attribute>
+		<value>2ya Sihna</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>San</attribute>
+		<value>1395</value>
+	</item1>
+	<item2>
+		<attribute>Ghatabara</attribute>
+		<value>Budhabara</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Gajapati</attribute>
+		<value>Sri Sri Dibyasingha Deva 22 Anka</value>
+	</item1>
+	<item2>
+		<attribute>Ghatatithi/Masa</attribute>
+		<value>6th/Pausha</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Joga/Karana</attribute>
+		<value>Brahma/Baba</value>
+	</item1>
+	<item2>
+		<attribute>Ghata Nakhyatra/Yoga/Karana</attribute>
+		<value>Anuradha/Byagata/Naga</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Ishta Kala</attribute>
+		<value>Da.45.29.03</value>
+	</item1>
+	<item2>
+		<attribute>Ayanansha</attribute>
+		<value>23.41.17</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Lagnamana/Bhukti</attribute>
+		<value>05.29.36/00.29.37</value>
+	</item1>
+	<item2>
+		<attribute>Akhyansha</attribute>
+		<value>019:58 Bha</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Lagna-Lagna Swami</attribute>
+		<value>Kanya-Budha</value>
+	</item1>
+	<item2>
+		<attribute>Draghima</attribute>
+		<value>048:40 Pu</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Rashi-Rashi Swami</attribute>
+		<value>Karkata-Chandra</value>
+	</item1>
+	<item2>
+		<attribute>Local Birth Place</attribute>
+		<value>00:36:40 hm</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Nakhyatra/Pada</attribute>
+		<value>Punarbasu-4th</value>
+	</item1>
+	<item2>
+		<attribute>Udayamanaka</attribute>
+		<value>06:16:23</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Rukhyadyanta</attribute>
+		<value>66:32</value>
+	</item1>
+	<item2>
+		<attribute>Asta Manaka</attribute>
+		<value>17:06:12</value>
+	</item2>
+</details>
+<details>
+	<item1>
+		<attribute>Dashabasesa</attribute>
+		<value>Bruhaspati - 02:02:25</value>
+	</item1>
+	<item2>
+		<attribute>Akshra (Di)</attribute>
+		<value>Hi (Hiranwayi)</value>
+	</item2>
+</details>
+
+<!-- Planet Positions -->
+<planet-pos>
+	<item>
+		<rashi>Lagna</rashi>
+		<value1>02.41.45</value1>
+		<value2>12/6</value2>
+		<value3>(2)</value3>
+	</item>
+	<item>
+		<rashi>Rabi</rashi>
+		<value1>22.28.16</value1>
+		<value2>18/8</value2>
+		<value3>(2)</value3>
+	</item>
+	<item>
+		<rashi>Chandra</rashi>
+		<value1>01.28.13</value1>
+		<value2>7/4</value2>
+		<value3>(4)</value3>
+	</item>
+	<item>
+		<rashi>Mangala</rashi>
+		<value1>15.55.59</value1>
+		<value2>15/7</value2>
+		<value3>(3)</value3>
+	</item>
+	<item>
+		<rashi>Budha</rashi>
+		<value1>14.27.33</value1>
+		<value2>17/8</value2>
+		<value3>(4)</value3>
+	</item>
+	<item>
+		<rashi>Guru</rashi>
+		<value1>26.09.48(-)</value1>
+		<value2>27/12</value2>
+		<value3>(3)</value3>
+	</item>
+	<item>
+		<rashi>Sukra</rashi>
+		<value1>19.37.43</value1>
+		<value2>20/9</value2>
+		<value3>(2)</value3>
+	</item>
+	<item>
+		<rashi>Sani</rashi>
+		<value1>29.03.20</value1>
+		<value2>18/8</value2>
+		<value3>(4)</value3>
+	</item>
+	<item>
+		<rashi>Rahu</rashi>
+		<value1>05.27.03(-)</value1>
+		<value2>26/12</value2>
+		<value3>(1)</value3>
+	</item>
+	<item>
+		<rashi>Ketu</rashi>
+		<value1>05.27.03(-)</value1>
+		<value2>12/6</value2>
+		<value3>(3)</value3>
+	</item>
+</planet-pos>
+
+<!-- Dasha -->
+<dasha>
+	<item>
+		<rashi>Bruhaspati</rashi>
+		<duration>09.12.87 - 04.03.90</duration>
+	</item>
+	<item>
+		<rashi>Sani</rashi>
+		<duration>04.03.90 - 04.03.09</duration>
+	</item>
+</dasha>
+
+<!-- Antardasha -->
+<antardasha>
+	<item>
+		<rashi1>Budha</rashi1>
+		<rashi2>Ketu</rashi2>
+		<rashi3>Sukra</rashi3>
+	</item>
+	<item>
+		<rashi1>Bu-01.08.11</rashi1>
+		<rashi2>Ke-01.08.26</rashi2>
+		<rashi3>Su-04.07.36</rashi3>
+	</item>
+	<item>
+		<rashi1>Ke-01.08.11</rashi1>
+		<rashi2>Su-01.08.26</rashi2>
+		<rashi3>Ra-04.07.36</rashi3>
+	</item>
+	<item>
+		<rashi1>Su-01.08.11</rashi1>
+		<rashi2>Ra-01.08.26</rashi2>
+		<rashi3>Cha-04.07.36</rashi3>
+	</item>
+	<item>
+		<rashi1>Ra-01.08.11</rashi1>
+		<rashi2>Cha-01.08.26</rashi2>
+		<rashi3>Ma-04.07.36</rashi3>
+	</item>
+	<item>
+		<rashi1>Cha-01.08.11</rashi1>
+		<rashi2>Ma-01.08.26</rashi2>
+		<rashi3>Ra-04.07.36</rashi3>
+	</item>
+	<item>
+		<rashi1>Ma-01.08.11</rashi1>
+		<rashi2>Ra-01.08.26</rashi2>
+		<rashi3>Bru-04.07.36</rashi3>
+	</item>
+	<item>
+		<rashi1>Ra-01.08.11</rashi1>
+		<rashi2>Bru-01.08.26</rashi2>
+		<rashi3>Sa-04.07.36</rashi3>
+	</item>
+	<item>
+		<rashi1>Bru-01.08.11</rashi1>
+		<rashi2>Sa-01.08.26</rashi2>
+		<rashi3>Bu-04.07.36</rashi3>
+	</item>
+	<item>
+		<rashi1>Sa-01.08.11</rashi1>
+		<rashi2>Bu-01.08.26</rashi2>
+		<rashi3>Ke-04.07.36</rashi3>
+	</item>
+</antardasha>
+</horoscope>

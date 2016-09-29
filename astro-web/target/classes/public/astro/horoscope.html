@@ -1,0 +1,216 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta charset="utf-8">
+	<title>Anuradha Astro Research</title>
+	
+	<!-- importing library js files -->
+	<script src="../js/jquery/jquery-1.11.3.js"></script>
+	<script src="../js/jquery/jquery-ui-1.11.4/jquery-ui.js"></script>
+	<script src="../js/jquery/layout/jquery.layout-latest.min.js"></script>
+
+	<!-- importing library css files -->
+	<link type="text/css" rel="stylesheet" href="../js/jQuery/jquery-ui-1.11.4/jquery-ui.css">
+	<link type="text/css" rel="stylesheet" href="../js/jquery/layout/layout-default-latest.css" />	
+	<link type="text/css" rel="stylesheet" href="../js/jquery/jquery-ui-themes-1.11.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+	
+	<!-- importing custom css files -->
+	<script src="../js/main.js"></script>
+	<link type="text/css" rel="stylesheet" href="../css/main.css">
+	
+
+	
+
+
+</head>
+<body>
+
+<!-- manually attach allowOverflow method to pane -->
+<div class="ui-layout-north" onmouseover="astroLayout.allowOverflow('north')" onmouseout="astroLayout.resetOverflow(this)">
+	This is the north pane, closable, slidable and resizable
+
+	<ul>
+		<li>
+			<ul>
+				<li>one</li>
+				<li>two</li>
+				<li>three</li>
+				<li>four</li>
+				<li>five</li>
+			</ul>
+			Drop-Down <!-- put this below so IE and FF render the same! -->
+		</li>
+	</ul>
+
+</div>
+
+<!-- allowOverflow auto-attached by option: west__showOverflowOnHover = true -->
+<div class="ui-layout-west">
+	<div id="astro-accordion">
+      <h3>Profile</h3>
+		 <p><a menu="horoscope" href="#">Horoscope</a></p>
+	   <h3>Reports</h3>
+	   <div>
+		   <p><a menu="report" href="/horoscope/report/download/sasanka_kar_2015_114_8/O">sasanka_kar_2015_114_8_O.pdf</a></p>
+		   <p><a menu="report" href="/horoscope/report/download/sasanka_kar_2015_114_8/E">sasanka_kar_2015_114_8_E.pdf</a></p>
+		  <p>subhamita_horocope.pdf</p>
+		  <p>vaijayanti_horocope.pdf</p>
+		  <p>kavita_horocope.pdf</p>
+		  <p>sangeeta_horocope.pdf</p>
+	   </div>	   
+   </div>
+</div>
+
+<div class="ui-layout-south">
+	This is the south pane, closable, slidable and resizable &nbsp;
+
+	<!-- this button has its event added dynamically in document.ready -->
+	<button class="south-toggler">Toggle This Pane</button>
+</div>
+
+<div class="ui-layout-east">
+	This is the east pane, closable, slidable and resizable
+
+	<!-- attach allowOverflow method to this specific element -->
+	<ul onmouseover="astroLayout.allowOverflow(this)" onmouseout="astroLayout.resetOverflow('east')">
+		<li>
+			<ul>
+				<li>one</li>
+				<li>two</li>
+				<li>three</li>
+				<li>four</li>
+				<li>five</li>
+			</ul>
+			Pop-Up <!-- put this below so IE and FF render the same! -->
+		</li>
+	</ul>
+
+	<!-- this button has its event added dynamically in document.ready -->
+	<p><button id="btnCloseEast">Close Me</button></p>
+
+	<p><select>
+		<option value="19">Picklist Test</option>
+		<option value="17">tropical storm</option>
+		<option value="18">hurricane</option>
+		<option value="19">severe thunderstorms</option>
+		<option value="20">thunderstorms</option>
+		<option value="21">mixed rain and snow</option>
+		<option value="22">mixed rain and sleet</option>
+		<option value="23">mixed snow and sleet</option>
+		<option value="24">freezing drizzle</option>
+		<option value="25">drizzle</option>
+		<option value="26">freezing rain</option>
+		<option value="27">showers</option>
+		<option value="28">showers</option>
+		<option value="29">snow flurries</option>
+		<option value="30">light snow showers</option>
+		<option value="31">blowing snow</option>
+		<option value="32">snow</option>
+		<option value="33">hail</option>
+		<option value="34">sleet</option>
+		<option value="35">dust</option>
+		<option value="36">foggy</option>
+		<option value="37">haze</option>
+		<option value="38">smoky</option>
+		<option value="39">blustery</option>
+		<option value="40">windy</option>
+		<option value="41">cold</option>
+		<option value="42">cloudy</option>
+		<option value="43">mostly cloudy (night)</option>
+		<option value="44">mostly cloudy (day)</option>
+		<option value="45">partly cloudy (night)</option>
+		<option value="46">partly cloudy (day)</option>
+		<option value="47">clear (night)</option>
+		<option value="48">sunny</option>
+		<option value="49">fair (night)</option>
+		<option value="50">fair (day)</option>
+		<option value="51">mixed rain and hail</option>
+		<option value="52">hot</option>
+		<option value="53">isolated thunderstorms</option>
+		<option value="54">scattered thunderstorms</option>
+		<option value="55">scattered thunderstorms</option>
+		<option value="56">scattered showers</option>
+		<option value="57">heavy snow</option>
+		<option value="58">scattered snow showers</option>
+		<option value="59">heavy snow</option>
+		<option value="60">partly cloudy</option>
+		<option value="61">thundershowers</option>
+		<option value="62">snow showers</option>
+		<option value="63">isolated thundershowers</option>
+	</select></p>
+
+</div>
+
+<div class="ui-layout-center">
+	<div id="dummyContent">
+
+<!-- <iframe src="http://docs.google.com/gview?url=http://infolab.stanford.edu/pub/papers/google.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
+<iframe src="/horoscope/report/download/sasanka_kar_2015_114_8/E" frameborder="0"></iframe> -->
+	This CENTER pane auto-sizes to fit the space <i>between</i> the 'border-panes'
+	<p>This layout was created with only <b>default options</b> - no customization</p>
+	<p>Only the <b>applyDefaultStyles</b> option was enabled for <i>basic</i> formatting</p>
+	<p>The Close buttons in East/West panes and the buttons below are examples of <b>custom buttons</b></p>
+
+	<p><a href="http://layout.jquery-dev.com/demos.html"><b>Go to the Demos page</b></a></p>
+
+	<p class="buttons">
+		<!-- these buttons have event added dynamically in document.ready -->
+		<button id="openAllPanes">Open All Panes</button>
+		&nbsp;
+		<button id="closeAllPanes">Close All Panes</button>
+		&nbsp;
+		<button id="toggleAllPanes">Toggle All Panes</button>
+	</p>
+
+	<p class="buttons">
+		<button onclick="astroLayout.toggle('north')">Toggle North Pane</button>
+		&nbsp;
+		<!-- this button has its event added dynamically in document.ready -->
+		<button class="south-toggler">Toggle South Pane</button>
+	</p>
+
+	<p class="buttons">
+		<button onclick="astroLayout.hide('east')">Hide East Pane</button>
+		&nbsp;
+		<button onclick="astroLayout.show('east', false)">Unhide East (Closed)</button>
+		&nbsp;
+		<button onclick="astroLayout.show('east')">Unhide East (Open)</button>
+	</p>
+
+	<p class="buttons">
+		<button onclick="toggleLiveResizing()">Toggle Live-Resizing (all panes)</button>
+		&nbsp;
+		<button id="btnToggleState" onclick="toggleStateManagement()">Disable State Cookie</button>
+		&nbsp;
+		<button id="btnReset" onclick="astroLayout.loadState(stateResetSettings, true)">Reset State</button>
+	</p>
+	</div>
+	<div id="horoscope">
+		<p class="buttons">
+			<button id="toggleNSEPanes">Toggle North-South-East Panes</button>
+		</p>
+		<!--<form id="astro-horoscope-form" name="astro-horoscope-form" action="/horoscope" modelAttribute="astroProfileForm" method="POST"> -->
+		<form id="horoscopeForm" name="horoscopeForm" action="/horoscope/report/prepare" method="post">
+		 <input id="astroSubmit" type="submit" value="Submit"/>
+		 <button type="button">Astro Report</button>
+		 
+		 <div id="header"></div>
+		<div id="data"></div>
+			<div id="responseData"></div>
+		<!-- following divs are included by respective html files by jQuery -->
+		<div class="include" data-include="god"></div>
+		<div class="include" data-include="shloka"></div>
+		<div class="include" data-include="reference"></div>
+		<div class="include" data-include="birth_details"></div>
+		<div class="include" data-include="horoscope_details"></div>
+		<div class="include" data-include="rashi_chakra"></div>
+		
+		</form>
+	</div>
+	<div id="pdf"></div>
+</div>
+
+</body>
+</html>
